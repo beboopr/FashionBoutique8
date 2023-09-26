@@ -5,13 +5,17 @@ import { MouseEventHandler } from "react"
 
 
 export interface CustomButtonProps {
-  isDisabled?: boolean;
-  btnType?: "button" | "submit";
-  containerStyles?: string;
-  textStyles?: string;
-  title: string;
-  rightIcon?: string;
-  handleClick?: MouseEventHandler<HTMLButtonElement>;
+    title: string;
+    containerStyles?: string;
+    isDisabled?: boolean;
+    btnType?: "button" | "submit";
+    textStyles?: string;
+    rightIcon?: string;
+    handleClick?: MouseEventHandler<HTMLButtonElement>;
+}
+export interface SearchManuFacturerProps {
+  manufacturer: string;
+  setManuFacturer: (manufacturer: string) => void;
 }
 
 // export interface CarProps {
@@ -64,9 +68,4 @@ export interface CustomButtonProps {
 // export interface ShowMoreProps {
 //   pageNumber: number;
 //   isNext: boolean;
-// }
-
-// export interface SearchManuFacturerProps {
-//   manufacturer: string;
-//   setManuFacturer: (manufacturer: string) => void;
 // }
