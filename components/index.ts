@@ -1,8 +1,8 @@
 // import CarCard from "./CarCard";
 import CustomButton from "./CustomButton";
 // import CustomFilter from "./CustomFilter";
-// import Footer from "./Footer";
-// import NavBar from "./Navbar";
+import Footer from "./Footer";
+import NavBar from "./NavBar";
 // import ShowMore from "./ShowMore";
 // import SearchBar from "./Searchbar";
 import Hero from "./Hero";
@@ -12,8 +12,8 @@ Hero,
 //   CarCard,
   CustomButton,
 //   CustomFilter,
-//   Footer,
-//   NavBar,
+  Footer,
+  NavBar,
 //   ShowMore,
 //   SearchBar,
 };
